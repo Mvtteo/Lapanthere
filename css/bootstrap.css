@@ -1437,11 +1437,15 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+}
+
+.img-responsive{
+    max-width: 270px!important;
 }
 
 .img-rounded {
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 .img-thumbnail {
@@ -1477,7 +1481,7 @@ hr {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
 }
 
 .sr-only-focusable:active,
@@ -5210,7 +5214,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-toggle {
+.navbar-toggle{
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -5220,7 +5224,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .navbar-toggle:focus {
@@ -5239,8 +5243,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (min-width:768px) {
-    .navbar-toggle {
-        display: none
+    .navbar-toggle{
+        display: none!important;
     }
 }
 
@@ -5251,7 +5255,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
+    font-weight: 900;
 }
 
 @media (max-width:767px) {

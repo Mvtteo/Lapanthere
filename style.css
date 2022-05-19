@@ -340,6 +340,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    display: none;
 }
 
 .navbar-toggle:hover {
@@ -753,13 +754,12 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(255 185 0 / 69%);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,109 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* fix */
+
+.title{
+    color: #F3976C;
+    font-size: 38px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h2 + p{
+    font-size: 15px;
+}
+
+q{
+    font-size: 22px;
+    color: black;
+}
+
+.tc-black{
+    color: black!important;
+    font-weight: 500;
+}
+
+h2 + .white{
+    font-size: 17px;
+}
+
+.col-sm-12 > p{
+    margin-bottom: 25px;
+}
+
+p + .social{
+    margin-bottom: 30px;
+}
+
+.col-sm-4{
+    font-size: 20px;
+}
+
+.col-sm-4 > ul{
+    list-style-type: none;
+    margin-top: 15px;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+ul > li{
+    margin-top: 2px;
+}
+
+.contact-p2 + h1{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+form > button{
+    width: 200px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    text-decoration: none;
+}
+
+.answer{
+    font-size: 25px;
+}
+
+.answer > span{
+    margin-left: 25px;
+}
+
+.socials-q{
+    text-decoration: none;
+    color: #ffffff!important
+}
+
+.socials-c{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 200px;
 }
