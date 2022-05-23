@@ -1120,9 +1120,6 @@ form > button{
 }
 
 .socials{
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
     text-decoration: none;
 }
 
@@ -1144,4 +1141,126 @@ form > button{
     justify-content: space-between;
     width: 20%;
     margin-left: 200px;
+}
+
+.menu-1{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.group{
+    display: flex;
+}
+
+.group-alone{
+    display: flex;
+}
+
+.group-alone ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.group ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.col-sm-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#margintop{
+    margin-top: 380px;
+}
+
+@media (max-width:772px){
+    .row{
+        flex-direction : column;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .img-responsive{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%!important;
+    }
+    q{
+        font-size: 17px;
+    }
+    .social{
+        flex-direction: row!important;
+    }
+    .group{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        width: 75%;
+    }
+    .group > ul{
+        margin: 0;
+    }
+    .group-alone{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .group-alone >ul{
+        margin: 0;
+    }
+    .collapse{
+        display: block;
+    }
+    .container{
+        padding: 0!important;
+    }
+    .nav{
+        margin-bottom: 0;
+    }
+    .hero-bloc-text{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .contact-p2 + h1{
+        font-size: 15px;
+    }
+    .min-height{
+        min-height: 200px;
+    }
+    .bgc-white{
+        margin-top: 25px;
+    }
+    #margintop{
+        margin-top: 0;
+    }
+    .socials{
+        flex-direction: row;
+    }
+    .footer{
+        min-height: 90px!important;
+    }
+}
+
+@media (min-width:772px) and (max-width:992px){
+    .col-sm-4{
+        padding: 0;
+    }
+    .contact{
+        margin-top: 40px;
+    }
 }
